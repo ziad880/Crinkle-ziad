@@ -1,0 +1,357 @@
+
+.navx a{
+    color: white;
+    padding-right: 30px;
+    text-decoration: none;
+    transition: .9s ease;
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3.5;
+
+}
+.navx a:hover{
+    color: #ff0000d3;
+    transform: scale(1.045);
+}
+
+
+#hh {
+    font-size: 4rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.head1{
+
+    color: white;
+    text-align: center;
+    font-family: so;
+    margin-bottom: 0px;
+    padding-top: 215px;
+    text-shadow: #ff0000d3 5px 3px;
+    font-weight: 900;
+    font-size: 75px;
+    margin-top: -20px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.958);
+}
+#oo{
+    font-size: 50px;
+    font-family: arr;
+}
+.con1 {
+    padding-bottom: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:auto; 
+
+}
+.card{
+    color: white;
+    background-color: #181818;
+    width: 18em;
+    box-shadow: #a90101e7 5px 5px 30px ;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    font-family: "Amiri", serif;
+    margin: 40px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.card:hover{
+    transform: scale(1.09);
+}
+
+.con1 img{border-radius: 10px 10px 0 0;
+    height: 20em;
+
+}
+#vv{
+    color: #fe69697d;
+    padding-right:15px;
+    font-size: 1.5em;
+}
+#bbn{
+    font-family: arr;
+    font-size: 80px;
+    margin-right: 10px;
+}
+#name{
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#explain{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#price{
+    text-shadow: #ff0000d3 1.03px 1px;
+    font-size: 1.19em;
+    font-weight: 900;
+}
+
+#hhh{
+    text-decoration: none;
+    line-height: 2.5;
+    font-family:pr ;
+
+}
+#mmn{
+    padding-right: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 3em;
+
+}
+.con2{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 200px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+#za{
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+.con2 h1{
+    text-shadow: #7d0101b7 -15px 5px 3px;
+    font-family: da;
+    font-weight: 900;
+    font-size: 264px;
+    margin-bottom: 70px;
+    transform: skewY(-4deg);
+    margin-left: 70px;
+}
+.con2 h2{
+    font-family: arr;
+    font-size: 70px;
+    padding-top: 60px;
+    padding-right: -41px;
+    transform: skewY(-25deg);
+    margin-left: 695px;
+}
+#cc{
+    display: flex;
+        font-family: arr;
+        font-size: 70px;
+        padding-top: 60px;
+        padding-right: -41px;
+        transform: skewY(-25deg);
+        margin-left: 600px;
+}
+.lo{
+margin-top: 20px;
+}
+.lo i{
+    font-size: 50px;
+}
+.card-body{
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-left: 23.5em;
+    margin-right: -25px;
+}
+.card-body a{
+    text-decoration: none;
+    color: white;
+}
+.card-body li{
+padding-bottom: 14px;
+}
+footer{
+    align-items: flex-end;
+    background-color: #000000;
+    color: white;
+    height: 70px;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: -250px;
+}
+footer span{
+    color: #6502cf;
+}
+#zx{
+    border-radius: 50%;
+    background: transparent; 
+}
+
+#zz{
+    color: #d60000d0;
+    width: 20px;
+    height: 55px;
+    font-size: 33px;
+}
+
+@font-face {
+    font-family: pr;
+    src: url(Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: ar;
+    src: url(ArefRuqaaInk-Bold.ttf);
+}
+@font-face {
+    font-family: bl;
+    src: url(BlakaInk-Regular.ttf);
+}
+@font-face {
+    font-family: arr;
+    src: url(ArefRuqaa-Regular.ttf);
+}
+@font-face {
+    font-family: so;
+    src: url(Sofia-Regular.ttf);
+}
+@font-face {
+    font-family:da ;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+@media  (min-width:1000px) and (max-width:2000px) {
+
+#hh{
+    font-size: 0rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navx a{
+    color: white;
+    padding-right: 30px;
+    text-decoration: none;
+    transition: .9s ease;
+    font-family: "Amiri", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    
+}
+#hhh img{
+    width: 140px;
+    height: 50px;
+}
+#za{
+    display: none;
+}
+.con2{
+    background-color: #040404;
+    height: 91vh;
+}
+#cc{
+    display: flex;
+    font-family: arr;
+    font-size: 45px;
+    padding-top: 25px;
+    transform: skewY(-8deg);
+    margin-left: 270px;
+    margin-top: -165px;
+}
+.con2 h1 {
+    text-shadow: #7d0101b7 -7px 5px 3px;
+    font-family: da;
+    font-weight: 900;
+    font-size: 140px;
+    margin-bottom: -175px;
+    transform: skewY(-3deg);
+    margin-left: 60px;
+    padding-top: 28px;
+}
+footer {
+    align-items: flex-end;
+    background-color: #000000;
+    color: white;
+    height: 70px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 60px;
+    margin-top: -16px;
+
+    }
+.card-body {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: -35px;
+    font-weight: 900;
+    margin-right: 88px;
+    padding-right: 100px;
+    }
+#vv{
+    color: #fe69697d;
+    padding-right:15px;
+    font-size: .8em;
+}
+#bbn{
+    font-family: arr;
+    font-size: 40px;
+    margin-right: 10px;
+    
+}
+#mmn{
+    padding-right: 0px;
+    margin-bottom: -15px;
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+#oo{
+    font-size: 45px;
+    font-family: arr;
+    font-weight: 200;
+}
+.head1 {
+    color: white;
+    text-align: center;
+    font-family: so;
+    margin-bottom: 20px;
+    padding-top: 115px;
+    text-shadow: #ff0000d3 5px 3px;
+    font-weight: 900;
+    font-size: 75px;
+    margin-top: -20px;
+}
+#kk{
+    margin-top: 150px;
+}
+footer p{
+    margin-bottom: 0rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
